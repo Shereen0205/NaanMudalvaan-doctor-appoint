@@ -1,0 +1,161 @@
+/* Alternate Light Mode Styles */
+.main {
+    padding: 25px;
+    height: 100vh;
+    background-color: #e8f5e9; /* Soft green background */
+    color: #2e2e2e; /* Darker text color */
+  }
+  
+  .layout {
+    display: flex;
+    flex-direction: column; /* Changed layout to column */
+  }
+  
+  .sidebar {
+    min-height: 700px;
+    height: auto;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #c8e6c9; /* Light green for sidebar */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Stronger shadow effect */
+    margin-bottom: 20px;
+    color: #2e2e2e;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 15px;
+  }
+  
+  .content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header {
+    height: 70px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    background-color: #a5d6a7; /* Green shade for header */
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+  }
+  
+  .body {
+    height: calc(100% - 90px);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    overflow-y: auto;
+    padding: 25px;
+  }
+  
+  .logo h6 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 25px 0px;
+    color: #2e2e2e;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+  
+  .menu {
+    margin-top: 40px;
+  }
+  
+  .menu-item {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #81c784; /* Darker green on hover */
+    transform: scale(1.05); /* Slight scale effect */
+  }
+  
+  .menu-item a {
+    color: #2e2e2e;
+    text-decoration: none;
+    margin-left: 18px;
+  }
+  
+  .menu-item i {
+    font-size: 1.3rem;
+    margin-right: 15px;
+    color: #2e2e2e;
+  }
+  
+  .active {
+    background-color: #4caf50; /* Highlighted green for active */
+    color: #fff;
+  }
+  
+  .active a,
+  .active i {
+    color: #ffffff;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between; /* Adjusted alignment */
+    margin-right: 15px;
+  }
+  
+  .header-content i {
+    margin-right: 15px;
+    font-size: 1.2rem;
+    color: #2e2e2e;
+  }
+  
+  .header-content a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #2e2e2e;
+    margin: 0 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  /*****************/
+  .date-picker,
+  .time-picker {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .d-flex-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .appoint-card-body {
+    display: flex;
+    background-color: #c8e6c9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card-body {
+    background-color: #ffffff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    width: auto;
+    padding: 20px;
+  }
+  
+  .user-doctor-admin-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
